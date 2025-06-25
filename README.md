@@ -1,14 +1,16 @@
 # Helphouse LINE Bot
+家事の管理を行うLINEbot
 
-共同生活の家事管理を手助けをするパートナー
+## 概要
+LINEグループに招待して使用するbotです。<br>
+ゴミ捨てを行った際に、特定のワード（「ゴミ捨て」等）をグループに投稿すると自動的にゴミ捨てした回数をカウントしてくれます。<br>
+月末になると月次のゴミ捨て回数ランキングを自動的に投稿してくれます。
 
-## 技術スタック
-
+### 技術スタック
 - FastAPI (Python)
 - line-bot-sdk-python (v3)
 
-## 各種ドキュメント
-
+### 各種ドキュメント
 - [line-bot-sdk-python リポジトリ (GitHub)](https://github.com/line/line-bot-sdk-python)
 - [Messaging API リファレンス (LINE Developers)](https://developers.line.biz/ja/reference/messaging-api/)
 - [Messaging API リファレンス#メッセージイベント (LINE Developers)](https://developers.line.biz/ja/reference/messaging-api/#message-event)
